@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NITK Photography Club</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+<div class="logo">
+<img src="images/logo.png" alt="NITK Photography Club">
+</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="#">Events</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</nav>
+
+
+
+<!-- ================= HERO SECTION ================= -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>NITK Photography Club</h1>
+
+<p>Capture Moments • Create Memories</p>
+
+<button onclick="openForm()">Login</button>
+</div>
+
+
+</section>
+
+<div class="join-form" id="joinForm">
+
+<div class="form-container">
+
+<h2>  Club member login </h2>
+
+<label>Registration Number</label>
+<input type="text" id="regno" placeholder="Enter Registration Number">
+
+<label>NITK Email</label>
+<input type="email" id="email" placeholder="Enter NITK Email">
+
+<label>Password</label>
+<input type="password" id="password" placeholder="Enter Password">
+
+<button class="submit-btn" onclick="memberLogin()">Login</button>
+
+<button class="close-btn" onclick="closeForm()">Cancel</button>
+
+</div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<!-- CLUB INFO -->
+<div class="footer-section footer-info">
+
+<h2 class="club-name">NITK Photography Club</h2>
+
+<p>
+NH 66, Srinivasnagar <br>
+Surathkal, Mangalore <br>
+Karnataka 575025
+</p>
+
+<p class="footer-contact">
+photoclub@nitk.edu.in
+</p>
+
+</div>
+
+
+<!-- CLUB LEADS -->
+<div class="footer-section">
+
+<h3>Club Leads</h3>
+
+<ul>
+<li><strong>Convener</strong> — Anu</li>
+<li><strong>President</strong> — TBD</li>
+<li><strong>Vice President</strong> — TBD</li>
+<li><strong>Core Members</strong> — Photography Team</li>
+</ul>
+
+</div>
+
+
+<!-- QUICK LINKS -->
+<div class="footer-section">
+
+<h3>Quick Links</h3>
+
+<ul>
+<li><a href="#">Events</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</div>
+
+
+<!-- LOGO COLUMN -->
+<div class="footer-logo-column">
+
+<img src="images/nitklogo.png" alt="NITK Photography Club">
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© 2026 NITK Photography Club. All rights reserved.
+</div>
+
+</footer>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Member Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 style="text-align:center;margin-top:40px;">
+NITK Photography Club Dashboard
+</h1>
+
+<div class="dashboard">
+
+<h2>Add Event</h2>
+
+<input type="text" id="eventTitle" placeholder="Event Title">
+
+<input type="date" id="eventDate">
+
+<textarea id="eventDesc" placeholder="Event Description"></textarea>
+
+<button onclick="addEvent()">Add Event</button>
+
+</div>
+
+
+<h2 style="text-align:center;margin-top:40px;">Upload Photo</h2>
+
+<div class="dashboard">
+
+<input type="file" id="photoUpload" accept="image/*">
+
+<input type="text" id="photoTitle" placeholder="Photo Title">
+
+<button onclick="uploadPhoto()">Upload Photo</button>
+
+</div>
+
+<h2 style="text-align:center;">Uploaded Photos</h2>
+
+<div id="photoGallery" class="photo-gallery"></div>
+
+
+
+<h2 style="text-align:center;">Upcoming Events</h2>
+
+<div id="eventList" class="event-list"></div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
